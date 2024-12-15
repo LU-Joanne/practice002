@@ -1,0 +1,120 @@
+.border-radius {
+    border-radius: 19px;
+}
+
+.btn-size {
+    width: 96px;
+    height: 38px;
+}
+
+.modal {
+    .text-color {
+        color: #373A3C;
+    }
+
+}
+
+.btn-style {
+    border-radius: 26px;
+    width: 100%;
+}
+
+.m-footer {
+    margin-bottom: 32px;
+}
+
+.margin-right-180 {
+    margin-right: 180px;
+}
+
+.funding-padding {
+    padding-right: 36px;
+    padding-top: 13.9px;
+    padding-bottom: 14px;
+}
+
+.share-btn {
+    padding-left: 54px;
+    padding-right: 54px;
+    border-radius: 26px;
+}
+
+.nav-tabs {
+    .nav-link.active {
+        border-color: transparent;
+        border-bottom: 2px solid #FFDF65;
+        font-weight: 700;
+
+    }
+}
+
+.ml-md-7 {
+    margin-left: 1rem;
+}
+
+.funding-btn {
+    padding-top: 9.1px;
+    padding-bottom: 8px;
+}
+
+.fs-sm-5 {
+    font-size: 18px;
+}
+
+.tracking-btn {
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 26px;
+    margin-bottom: auto;
+}
+
+.margin-bottom-34 {
+    margin-bottom: 34px;
+}
+
+@media (min-width: 576px) {
+    .ml-md-7 {
+        margin-left: 7rem;
+    }
+
+    .funding-btn {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .fs-sm-5 {
+        font-size: 20px;
+    }
+
+    .tracking-btn {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+}
+
+
+@media (min-width: 992px) {
+    .margin-bottom-34 {
+        margin-bottom: 47.9px;
+    }
+
+    .tracking-btn {
+        padding-left: 34px;
+        padding-right: 34px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .tracking-btn {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+
+
+.text-align-justify {
+    text-align: justify;
+}

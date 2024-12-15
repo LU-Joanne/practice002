@@ -1,0 +1,33 @@
+@import "bootstrap/bootstrap";
+@import "index";
+@import "faq";
+
+body {
+    font-family: "Noto Sans TC";
+}
+
+.baloo-tamma-2 {
+    font-family: "Baloo Tamma 2", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+.bg-input {
+    background-color: #F7F7F7;
+    border: none;
+}
+
+.letter-spacing-1 {
+    letter-spacing: 0.7px;
+}
+
+
+.letter-spacing-2 {
+    letter-spacing: 2px;
+}
+
+.letter-spacing-3 {
+    letter-spacing: 3px;
+}
