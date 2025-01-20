@@ -6957,15 +6957,15 @@ textarea.form-control-lg {
   font-size: 1.25rem !important;
 }
 
+.fs-55 {
+  font-size: 1.125rem !important;
+}
+
 .fs-6 {
   font-size: 1rem !important;
 }
 
 .fs-7 {
-  font-size: 0.875rem !important;
-}
-
-.fs-8 {
   font-size: 0.75rem !important;
 }
 
@@ -9820,10 +9820,6 @@ textarea.form-control-lg {
   font-weight: 700;
 }
 
-.ml-md-7 {
-  margin-left: 1rem;
-}
-
 .funding-btn {
   padding-top: 9.1px;
   padding-bottom: 8px;
@@ -9844,6 +9840,63 @@ textarea.form-control-lg {
   margin-bottom: 34px;
 }
 
+.btn-margin-lf {
+  margin-left: 1rem;
+}
+
+.btn-font-si {
+  font-size: 0.875rem;
+}
+
+.nav-hg {
+  height: 52px;
+}
+
+.form-select {
+  background-color: #F7F7F7;
+  border: 1px solid #F7F7F7;
+  color: #999999;
+}
+
+.form-control {
+  background-color: #F7F7F7;
+  border: 1px solid #F7F7F7;
+}
+
+.form-label {
+  color: #373A3C;
+}
+
+.submit-btn {
+  padding: 11px 48.1px;
+}
+
+.facebook-icon {
+  margin: 0 0.5rem 1rem 1rem;
+}
+
+.slogan-p {
+  padding-top: 6px;
+  padding-bottom: 5px;
+}
+
+.btn-sponsor {
+  border-radius: 19px;
+  padding-top: 9px;
+  padding-bottom: 12px;
+  line-height: 21px;
+  letter-spacing: 1.1px;
+}
+
+.bg-lightgary {
+  background-color: #E8E8DB;
+}
+
+.footer {
+  background-color: #494846;
+  padding: 32px 0;
+}
+
 @media (min-width: 576px) {
   .ml-md-7 {
     margin-left: 7rem;
@@ -9859,6 +9912,20 @@ textarea.form-control-lg {
     padding-left: 80px;
     padding-right: 80px;
   }
+  .letter-sp {
+    letter-spacing: 2px;
+  }
+  .btn-margin-lf {
+    margin-left: 4rem;
+  }
+}
+@media (min-width: 768px) {
+  .btn-font-si {
+    font-size: 1rem;
+  }
+  .nav-hg {
+    height: 70px;
+  }
 }
 @media (min-width: 992px) {
   .margin-bottom-34 {
@@ -9868,6 +9935,9 @@ textarea.form-control-lg {
     padding-left: 34px;
     padding-right: 34px;
   }
+  .btn-margin-lf {
+    margin-left: 5.25rem;
+  }
 }
 @media (min-width: 1200px) {
   .tracking-btn {
@@ -9875,10 +9945,6 @@ textarea.form-control-lg {
     padding-right: 80px;
   }
 }
-.text-align-justify {
-  text-align: justify;
-}
-
 .padding-6 {
   padding: 6px;
 }
@@ -9901,6 +9967,30 @@ textarea.form-control-lg {
   margin-left: 2.75rem;
 }
 
+.mb-019 {
+  margin-bottom: 0.19rem;
+}
+
+.letter-spacing-04 {
+  letter-spacing: 0.49px;
+}
+
+.bg-lightgray {
+  background-color: #FEFEFE;
+}
+
+.mb-45 {
+  margin-bottom: 2rem;
+}
+
+.gray3 {
+  color: #373A3C;
+}
+
+.letter-spacing-06 {
+  letter-spacing: 0.61px;
+}
+
 body {
   font-family: "Noto Sans TC";
 }
@@ -9917,8 +10007,16 @@ body {
   border: none;
 }
 
+.text-align-justify {
+  text-align: justify;
+}
+
 .letter-spacing-1 {
   letter-spacing: 0.7px;
+}
+
+.letter-spacing-11 {
+  letter-spacing: 0.8px;
 }
 
 .letter-spacing-2 {
