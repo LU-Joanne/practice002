@@ -66,6 +66,13 @@
   color: #4f4d46;
 }
 
+.link-body-color {
+  color: #494846;
+}
+.link-body-color:hover, .link-body-color:focus {
+  color: #3a3a38;
+}
+
 .ratio {
   position: relative;
   width: 100%;
@@ -443,6 +450,10 @@
 
 .border-dark {
   border-color: #636057 !important;
+}
+
+.border-body-color {
+  border-color: #494846 !important;
 }
 
 .border-white {
@@ -1282,6 +1293,10 @@
   color: #636057 !important;
 }
 
+.text-body-color {
+  color: #494846 !important;
+}
+
 .text-white {
   color: #fff !important;
 }
@@ -1336,6 +1351,10 @@
 
 .bg-dark {
   background-color: #636057 !important;
+}
+
+.bg-body-color {
+  background-color: #494846 !important;
 }
 
 .bg-body {

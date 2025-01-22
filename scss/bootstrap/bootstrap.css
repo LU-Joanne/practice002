@@ -27,6 +27,7 @@
   --bs-danger: #FF785E;
   --bs-light: #F8F9FA;
   --bs-dark: #636057;
+  --bs-body-color: #494846;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
@@ -2941,6 +2942,36 @@ textarea.form-control-lg {
   border-color: #636057;
 }
 
+.btn-body-color {
+  color: #fff;
+  background-color: #494846;
+  border-color: #494846;
+}
+.btn-body-color:hover {
+  color: #fff;
+  background-color: #3e3d3c;
+  border-color: #3a3a38;
+}
+.btn-check:focus + .btn-body-color, .btn-body-color:focus {
+  color: #fff;
+  background-color: #3e3d3c;
+  border-color: #3a3a38;
+  box-shadow: 0 0 0 0.25rem rgba(100, 99, 98, 0.5);
+}
+.btn-check:checked + .btn-body-color, .btn-check:active + .btn-body-color, .btn-body-color:active, .btn-body-color.active, .show > .btn-body-color.dropdown-toggle {
+  color: #fff;
+  background-color: #3a3a38;
+  border-color: #373635;
+}
+.btn-check:checked + .btn-body-color:focus, .btn-check:active + .btn-body-color:focus, .btn-body-color:active:focus, .btn-body-color.active:focus, .show > .btn-body-color.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem rgba(100, 99, 98, 0.5);
+}
+.btn-body-color:disabled, .btn-body-color.disabled {
+  color: #fff;
+  background-color: #494846;
+  border-color: #494846;
+}
+
 .btn-outline-primary {
   color: #0d6efd;
   border-color: #0d6efd;
@@ -3138,6 +3169,31 @@ textarea.form-control-lg {
 }
 .btn-outline-dark:disabled, .btn-outline-dark.disabled {
   color: #636057;
+  background-color: transparent;
+}
+
+.btn-outline-body-color {
+  color: #494846;
+  border-color: #494846;
+}
+.btn-outline-body-color:hover {
+  color: #fff;
+  background-color: #494846;
+  border-color: #494846;
+}
+.btn-check:focus + .btn-outline-body-color, .btn-outline-body-color:focus {
+  box-shadow: 0 0 0 0.25rem rgba(73, 72, 70, 0.5);
+}
+.btn-check:checked + .btn-outline-body-color, .btn-check:active + .btn-outline-body-color, .btn-outline-body-color:active, .btn-outline-body-color.active, .btn-outline-body-color.dropdown-toggle.show {
+  color: #fff;
+  background-color: #494846;
+  border-color: #494846;
+}
+.btn-check:checked + .btn-outline-body-color:focus, .btn-check:active + .btn-outline-body-color:focus, .btn-outline-body-color:active:focus, .btn-outline-body-color.active:focus, .btn-outline-body-color.dropdown-toggle.show:focus {
+  box-shadow: 0 0 0 0.25rem rgba(73, 72, 70, 0.5);
+}
+.btn-outline-body-color:disabled, .btn-outline-body-color.disabled {
+  color: #494846;
   background-color: transparent;
 }
 
@@ -4502,6 +4558,15 @@ textarea.form-control-lg {
   color: #2f2e2a;
 }
 
+.alert-body-color {
+  color: #2c2b2a;
+  background-color: #dbdada;
+  border-color: #c8c8c8;
+}
+.alert-body-color .alert-link {
+  color: #232222;
+}
+
 @keyframes progress-bar-stripes {
   0% {
     background-position-x: 1rem;
@@ -4879,6 +4944,20 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #3b3a34;
   border-color: #3b3a34;
+}
+
+.list-group-item-body-color {
+  color: #2c2b2a;
+  background-color: #dbdada;
+}
+.list-group-item-body-color.list-group-item-action:hover, .list-group-item-body-color.list-group-item-action:focus {
+  color: #2c2b2a;
+  background-color: #c5c4c4;
+}
+.list-group-item-body-color.list-group-item-action.active {
+  color: #fff;
+  background-color: #2c2b2a;
+  border-color: #2c2b2a;
 }
 
 .btn-close {
@@ -5880,6 +5959,13 @@ textarea.form-control-lg {
   color: #4f4d46;
 }
 
+.link-body-color {
+  color: #494846;
+}
+.link-body-color:hover, .link-body-color:focus {
+  color: #3a3a38;
+}
+
 .ratio {
   position: relative;
   width: 100%;
@@ -6257,6 +6343,10 @@ textarea.form-control-lg {
 
 .border-dark {
   border-color: #636057 !important;
+}
+
+.border-body-color {
+  border-color: #494846 !important;
 }
 
 .border-white {
@@ -7096,6 +7186,10 @@ textarea.form-control-lg {
   color: #636057 !important;
 }
 
+.text-body-color {
+  color: #494846 !important;
+}
+
 .text-white {
   color: #fff !important;
 }
@@ -7150,6 +7244,10 @@ textarea.form-control-lg {
 
 .bg-dark {
   background-color: #636057 !important;
+}
+
+.bg-body-color {
+  background-color: #494846 !important;
 }
 
 .bg-body {

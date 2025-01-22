@@ -2,9 +2,8 @@
     border-radius: 19px;
 }
 
-.btn-size {
-    width: 96px;
-    height: 38px;
+.w-vh-24 {
+    width: 24vh;
 }
 
 .modal {
@@ -17,6 +16,10 @@
 .btn-style {
     border-radius: 26px;
     width: 100%;
+}
+
+.rounded-4 {
+    border-radius: 26px;
 }
 
 .m-footer {
@@ -33,9 +36,14 @@
     padding-bottom: 14px;
 }
 
+.tooltip-demo {
+    a {
+        white-space: nowrap;
+        // cursor: default;
+    }
+}
+
 .share-btn {
-    padding-left: 54px;
-    padding-right: 54px;
     border-radius: 26px;
 }
 
@@ -48,20 +56,8 @@
     }
 }
 
-.funding-btn {
-    padding-top: 9.1px;
-    padding-bottom: 8px;
-}
-
 .fs-sm-5 {
     font-size: 18px;
-}
-
-.tracking-btn {
-    padding-left: 35px;
-    padding-right: 35px;
-    border-radius: 26px;
-    margin-bottom: auto;
 }
 
 .margin-bottom-34 {
@@ -108,6 +104,14 @@
     padding-bottom: 5px;
 }
 
+.top-card {
+    top: 60px;
+}
+
+.h-sticky-card {
+    height: calc(100vh - 60px);
+}
+
 .btn-sponsor {
     border-radius: 19px;
     padding-top: 9px;
@@ -125,23 +129,32 @@
     padding: 32px 0;
 }
 
+.btn-warning:hover {
+    color: #FFFFFF !important;
+    background-color: #FF785E;
+    border-color: #FF785E;
+
+}
+
+.btn-outline-secondary:hover {
+    color: #858377 !important;
+    background-color: #FFDF65;
+    border-color: #FFDF65;
+
+    .bi {
+        color: #FF785E;
+    }
+}
+
+
+
 @media (min-width: 576px) {
     .ml-md-7 {
         margin-left: 7rem;
     }
 
-    .funding-btn {
-        padding-top: 12px;
-        padding-bottom: 12px;
-    }
-
     .fs-sm-5 {
         font-size: 20px;
-    }
-
-    .tracking-btn {
-        padding-left: 80px;
-        padding-right: 80px;
     }
 
     .letter-sp {
@@ -162,6 +175,14 @@
     .nav-hg {
         height: 70px;
     }
+
+    .w-md-60 {
+        width: 60% !important;
+    }
+
+    .w-md-35 {
+        width: 35% !important;
+    }
 }
 
 @media (min-width: 992px) {
@@ -169,21 +190,7 @@
         margin-bottom: 47.9px;
     }
 
-    .tracking-btn {
-        padding-left: 34px;
-        padding-right: 34px;
-    }
-
     .btn-margin-lf {
         margin-left: 5.25rem;
     }
-}
-
-@media (min-width: 1200px) {
-    .tracking-btn {
-        padding-left: 80px;
-        padding-right: 80px;
-    }
-
-
 }
