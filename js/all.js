@@ -25,5 +25,38 @@ $(function () {
         })
 })();
 
+$(function () {
+    $("li > button").click(function (e) {
+        e.preventDefault();
+        $("html,body").animate(
+            {
+                scrollTop: $("#nav-tabContent").offset().top - 90,
+            },
+            400
+        );
+        return false;
+    });
+});
 
+$(function () {
+    $("#sponsor").click(function (e) {
+        e.preventDefault();
+        $("html,body").animate(
+            {
+                scrollTop: $("#img-sponsor").offset().top - 80,
+            },
+            400
+        );
+    });
+});
 
+$(function () {
+    $(window).scroll(function () {
+        let scrollTop = $(window).scrollTop();
+        if (scrollTop > 930 && scrollTop < 3500) {
+            $("#sponsor").show();
+        } else {
+            $("#sponsor").hide();
+        }
+    });
+});

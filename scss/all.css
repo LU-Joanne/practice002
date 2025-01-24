@@ -9958,10 +9958,6 @@ textarea.form-control-lg {
   color: #373A3C;
 }
 
-.submit-btn {
-  padding: 11px 48.1px;
-}
-
 .facebook-icon {
   margin: 0 0.5rem 1rem 1rem;
 }
@@ -9993,7 +9989,7 @@ textarea.form-control-lg {
 
 .footer {
   background-color: #494846;
-  padding: 32px 0;
+  letter-spacing: 0.17px;
 }
 
 .btn-warning:hover {
@@ -10038,6 +10034,15 @@ textarea.form-control-lg {
   .w-md-35 {
     width: 35% !important;
   }
+  .submit-btn {
+    width: auto !important;
+    padding: 0.75rem 3rem;
+    font-size: 1.25rem !important;
+  }
+  .footer {
+    letter-spacing: 0.2px !important;
+    font-size: 1rem;
+  }
 }
 @media (min-width: 992px) {
   .margin-bottom-34 {
@@ -10077,6 +10082,13 @@ textarea.form-control-lg {
   letter-spacing: 0.49px;
 }
 
+@media (min-width: 768px) {
+  .img-md-fluid {
+    width: auto !important;
+    max-width: 100% !important;
+    height: auto !important;
+  }
+}
 .bg-lightgray {
   background-color: #FEFEFE;
 }
@@ -10115,6 +10127,10 @@ body {
 
 .letter-spacing-1 {
   letter-spacing: 0.7px;
+}
+
+.letter-spacing-16 {
+  letter-spacing: 1.6px;
 }
 
 .letter-spacing-11 {

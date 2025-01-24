@@ -5,3 +5,11 @@
 .letter-spacing-04 {
     letter-spacing: 0.49px;
 }
+
+@media (min-width: 768px) {
+    .img-md-fluid {
+        width: auto !important;
+        max-width: 100% !important;
+        height: auto !important;
+    }
+}
