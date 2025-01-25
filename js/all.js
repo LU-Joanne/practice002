@@ -53,7 +53,8 @@ $(function () {
 $(function () {
     $(window).scroll(function () {
         let scrollTop = $(window).scrollTop();
-        if (scrollTop > 930 && scrollTop < 3500) {
+        let maxHeight = $("#img-sponsor").offset().top;
+        if (scrollTop > 946 && scrollTop < maxHeight - 300) {
             $("#sponsor").show();
         } else {
             $("#sponsor").hide();
