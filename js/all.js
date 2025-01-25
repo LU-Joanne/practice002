@@ -53,8 +53,8 @@ $(function () {
 $(function () {
     $(window).scroll(function () {
         let scrollTop = $(window).scrollTop();
-        let maxHeight = $("#img-sponsor").offset().top;
         let minHeight = $("#nav-tabContent").offset().top;
+        let maxHeight = $("#img-sponsor").offset().top;
         if (scrollTop > minHeight - 100 && scrollTop < maxHeight - 300) {
             $("#sponsor").show();
         } else {

@@ -10007,6 +10007,10 @@ textarea.form-control-lg {
   color: #FF785E;
 }
 
+.d-no {
+  display: none;
+}
+
 @media (min-width: 576px) {
   .ml-md-7 {
     margin-left: 7rem;
